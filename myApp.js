@@ -1,11 +1,12 @@
 const express = require('express');
+const helmet = require('helmet');
+
 const app = express();
 
-
-
-
-
-
+// Security middleware
+app.use(helmet.hidePoweredBy());
+app.use(helmet.frameguard({ action: 'deny' }));
+app.use(helmet.xssFilter());  // Deprecated in Helmet v4, but still works (required by freeCodeCamp)
 
 
 
