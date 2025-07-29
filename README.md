@@ -2,7 +2,7 @@
 
 Old school setup, but intentional for modularity and clear 'basics' format. 
 
-Just a boilerplate for now.  
+Just a boilerplate for now.   
 
 ### 📌 Purpose
 
